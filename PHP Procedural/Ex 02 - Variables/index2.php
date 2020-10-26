@@ -9,12 +9,12 @@
     <!-- For for getting user input -->
     <form action="" method="GET">
         <input type="text" name="person">
-        <button>Submit</button>
+        <button type = "submit">Submit</button>
     </form>
 
     <?php
         $name  = $_GET['person']; // Store user input using GET method
-        
+
         echo "Your name is ".$name; // Echo $name with string concatenation
     ?>
 </body>
