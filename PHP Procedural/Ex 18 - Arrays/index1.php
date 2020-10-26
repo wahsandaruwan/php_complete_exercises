@@ -10,6 +10,12 @@
     echo $array['3']."<br>";
     echo $array['4']."<br>";
 
+    echo sizeof($array)."<br>";; // Size of the array
+
+    echo print_r($array)."<br>"; // Print the information about some variables in a more human-readable way
+
+    echo var_dump($array)."<br>"; // Dumps information about one or more variables. The information holds type, length and value of the variable(s).
+
     // Advantages : Code Efficiency
     // Disadvantages : Size Limits
 ?>
